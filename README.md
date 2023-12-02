@@ -1,1 +1,1 @@
-The react application
+Ushbu dastur matnlaringizni LOTINCHADAN KIRILCHAGA yoki KIRILCHADAN LOTINCHAGA o'girib berish imkoniyatini beradi.   
