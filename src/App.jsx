@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./App.css";
 import "./Responsive.css";
 import Translator from "lotin-kirill";
-import Footer from "./Footer";
 
 function App() {
   const translator = new Translator();
@@ -30,7 +29,6 @@ function App() {
 
   return (
     <>
-
       <div className="container">
         <h1>
           Ushbu dastur matiningizni <span>LOTINDAN KIRILGA</span> yoki{" "}
@@ -77,10 +75,14 @@ function App() {
             </label>
           </div>
         </form>
-        
-      </div>
 
-      <Footer />
+        <div className="footer__end">
+          <a target="_blank" href="https://t.me/yarkinovv">
+            Sayt yaratuvchisi bilan bog'lanish
+          </a>
+        </div>
+
+      </div>
     </>
   );
 }
