@@ -14,7 +14,6 @@ body {
   max-width: 1366px;
   width: 100%;
   height: 100vh;
-  background-color: red;
   padding-bottom: 30px;
   position: relative;
 }
@@ -152,9 +151,7 @@ button i {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  margin-top: 30px;
 }
 
 .footer__end a{
