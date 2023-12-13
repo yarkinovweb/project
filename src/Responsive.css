@@ -66,4 +66,12 @@
     font-size: 15px;
   }
 
+  .footer__end{
+    height: 77px;
+  }
+
+  .footer__end a{
+    font-size: 15px;
+  }
+
 }

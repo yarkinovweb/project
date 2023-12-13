@@ -7,17 +7,13 @@
 }
 
 body {
-  background: url(../src/bg3.jpg) no-repeat center / cover;
+  background: url(../src/book.jpg) no-repeat center / cover;
 }
 
 .container {
-  max-width: 1350px;
+  max-width: 1366px;
   width: 100%;
-  height: auto;
-  /* border: 1px solid black; */
-  margin: auto;
-  padding: 20px 20px;
-  margin-top: 5px;
+  height: 85vh;
 }
 
 h1 {
@@ -28,8 +24,12 @@ h1 {
 h1 span,
 b {
   font-weight: 900;
-  color: red;
+  color: yellow;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+textarea{
+  color: black;
 }
 
 .header {
@@ -50,7 +50,7 @@ b {
   border-radius: 5px;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(147, 147, 147);
+  background-color: rgb(197, 197, 197);
 }
 
 .nd {
@@ -63,11 +63,11 @@ b {
   border-radius: 5px;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(147, 147, 147);
+  background-color: rgb(197, 197, 197);
 }
 
 ::placeholder {
-  color: black;
+  color: rgb(107, 107, 107);
 }
 
 .arrow,
@@ -139,4 +139,22 @@ b {
 
 button i {
   font-size: 25px;
+}
+
+.footer__end{
+  max-width: 1366px;
+  height: 92px;
+  margin: auto;
+  background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__end a{
+  color: white;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 22px;
 }
