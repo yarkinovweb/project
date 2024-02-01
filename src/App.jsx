@@ -30,6 +30,7 @@ function App() {
   return (
     <>
       <div className="container">
+        
         <h1>
           Ushbu dastur matiningizni <span>LOTINDAN KIRILGA</span> yoki{" "}
           <b>KIRILDAN LOTINGA</b> o'girib beradi
@@ -47,15 +48,13 @@ function App() {
               <button
                 onClick={toggle}
                 type="button"
-                className="btn btn-primary arrow"
-              >
+                className="btn btn-primary arrow">
                 <i class="fa-solid fa-arrow-right-arrow-left"></i>
               </button>
               <button
                 onClick={copyToClipboard}
                 type="button"
-                className="btn btn-danger copy"
-              >
+                className="btn btn-danger copy">
                 <i class="fa-regular fa-copy"></i>
               </button>
             </div>
@@ -77,7 +76,7 @@ function App() {
         </form>
 
         <div className="footer__end">
-          <a target="_blank" href="https://t.me/yarkinovv">
+          <a target="_blank" href="https://t.me/yarkinov_web">
             Sayt yaratuvchisi bilan bog'lanish
           </a>
         </div>
