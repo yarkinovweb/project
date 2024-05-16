@@ -29,12 +29,14 @@ function App() {
 
   return (
     <>
-      <div className="container">
-        
-        <h1>
-          Ushbu dastur matiningizni <span>LOTINDAN KIRILGA</span> yoki{" "}
-          <b>KIRILDAN LOTINGA</b> o'girib beradi
-        </h1>
+      <div className="container-fluid">
+
+        <div className="nav">
+          <h1>
+            Ushbu dastur matiningizni <span>LOTINDAN KIRILGA</span> yoki{" "}
+            <b>KIRILDAN LOTINGA</b> o'girib beradi
+          </h1>
+        </div>
 
         <form>
           <div className="header">

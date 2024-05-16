@@ -7,31 +7,35 @@
 }
 
 body {
-  background: url(../src/book.jpg) no-repeat center / cover;
-  background-attachment: fixed;
+  background-color: #F6FBFF;
 }
 
-.container {
-  max-width: 1366px;
+.nav {
   width: 100%;
-  height: 100vh;
-  padding-bottom: 30px;
-  position: relative;
+  height: 130px;
+  border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  background-color: #0C6AAA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   color: white;
+  font-weight: 900;
+  text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h1 span,
 b {
   font-weight: 900;
-  color: yellow;
+  color: red;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-textarea{
+textarea {
   color: black;
   resize: none;
 }
@@ -46,15 +50,17 @@ textarea{
 }
 
 .st {
-  width: 600px;
+  width: 50%;
   height: 250px;
   outline: none;
   padding: 15px 20px;
-  border: 3px solid blue;
-  border-radius: 5px;
-  font-weight: 900;
+  border-radius: 20px;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(197, 197, 197);
+  background-color: white;
+  border: none;
+  margin-left: 20px;
+  box-shadow: 5px 5px 5px black;
 }
 
 .nd {
@@ -63,11 +69,13 @@ textarea{
   outline: none;
   padding: 15px 20px;
   margin-left: 20px;
-  border: 3px solid blue;
-  border-radius: 5px;
-  font-weight: 900;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(197, 197, 197);
+  background-color: white;
+  margin-right: 20px;
+  box-shadow: 5px 5px 5px black;
 }
 
 ::placeholder {
@@ -88,19 +96,35 @@ textarea{
 }
 
 .arrow {
-  background-color: blue;
+  width: 50px;
+  height: 50px;
+  background-color: #0C6AAA;
+  border-radius: 50%;
+}
+
+.arrow i {
+  font-size: 22px;
 }
 
 .arrow:hover {
-  background-color: rgb(2, 2, 204);
+  background-color: #0c5788;
 }
 
 .copy {
-  background-color: red !important;
+  background-color: #0C6AAA;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+
+.copy i {
+  font-size: 22px;
 }
 
 .copy:hover {
-  background-color: rgb(209, 7, 7) !important;
+  background-color: #0c5788;
 }
 
 .footer {
@@ -109,7 +133,7 @@ textarea{
   align-items: center;
 }
 
-.button{
+.button {
   width: 100%;
   height: auto;
 }
@@ -118,48 +142,50 @@ textarea{
 .kiril {
   width: 120px;
   height: 40px;
-  margin-top: 20px;
-  background-color: yellow;
+  background-color: #0C6AAA;
   text-align: center;
   line-height: 40px;
   border-radius: 5px;
-  color: black;
+  color: white;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
+  margin: 20px;
 }
 
 .lotin:hover {
-  background-color: rgb(205, 205, 4);
+  background-color: #0c5788;
 }
 
 .kiril:hover {
-  background-color: rgb(205, 205, 4);
-}
-
-.kiril {
-  background-color: yellow;
+  background-color: #0c5788;
 }
 
 button i {
   font-size: 25px;
 }
 
-.footer__end{
+.container-fluid {
+  padding: 0;
+}
+
+.footer__end {
   width: 100%;
-  height: 70px;
+  height: 111px;
   margin: auto;
-  background-color: darkcyan;
+  background-color: #0C6AAA;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  border-top-right-radius: 70px;
+  border-top-left-radius: 70px;
 }
 
-.footer__end a{
+.footer__end a {
   color: white;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 25px;
 }
